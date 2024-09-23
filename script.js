@@ -7,9 +7,9 @@ $('#toggleButton').click(function () {
 function updateStarterImgSrc() {
     const starterImg = document.querySelector("#starterImg");
     if (window.matchMedia("(min-width: 600px)").matches) {
-        starterImg.src = "imgs/photoBy-Averie_Woodard-unsplash-md.png";
+        starterImg.src = "imgs/photoBy-Averie_Woodard-unsplash-md1.webp";
     } else {
-        starterImg.src = "imgs/photoBy-Averie_Woodard-unsplash.png";
+        starterImg.src = "imgs/photoBy-Averie_Woodard-unsplash-lg.webp";
     }
 }
 window.addEventListener("resize", updateStarterImgSrc);
